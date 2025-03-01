@@ -1,0 +1,81 @@
+body {
+    background-color: rgb(173, 179, 236);
+    align-items: center;
+    position: relative;
+}
+
+.background {
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 100px;
+    position: relative;
+    background-color: azure;
+    border-radius: 40px;
+}
+
+.addbtn {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: fit-content;
+    padding: 10px;
+    background-color: rgb(114, 0, 245);
+    text-align: center;
+    font-style: normal;
+    color: azure;
+    border-radius: 11px;
+}
+
+.taskInput {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    border-radius: 11px;
+}
+
+h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: black;
+    padding: 20px;
+    font-size: 24px;
+}
+
+ul {
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    padding: 0;
+
+}
+  
+li {
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(5, 45, 224);
+    margin: 5px 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    border-radius: 11px;
+}
+
+.completeBtn {
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    color: white;
+    background-color: crimson;
+}
+
+.deleteBtn {
+
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 255, 213);
+}
+
+.completed {
+    text-decoration: line-through;
+    color: rgb(0, 0, 0);
+}
